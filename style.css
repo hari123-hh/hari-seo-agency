@@ -117,3 +117,99 @@ footer {
 .contact-form button.btn-primary:hover {
   background-color: #0056b3;
 }
+.extraservices {
+  background: #f8f8f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.seo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.seo-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.seo-card:hover {
+  transform: translateY(-5px);
+}
+
+.seo-card h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.seo-card p {
+  font-size: 14px;
+  color: #555;
+}
+.affiliate-section {
+  background: #fdfdfd;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.affiliate-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.affiliate-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.tool-card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-6px);
+}
+
+.tool-card img {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.tool-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tool-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.btn-tool {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0066ff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
